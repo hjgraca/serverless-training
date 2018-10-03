@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "blockchain",
+      "connection": "serverlessdemo_RootManageSharedAccessKey_SERVICEBUS",
+      "accessRights": "Listen"
+    }
+  ],
+  "disabled": false
+}

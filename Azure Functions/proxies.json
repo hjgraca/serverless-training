@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "proxy": {
+            "matchCondition": {
+                "route": "/create"
+            },
+            "backendUri": "https://functionportalcp.azurewebsites.net/api/CreateWithAlert?code=OIBVci/7wGizKzp/E3wYICBOtWfrZ2gQorw8JctbgXmzMcbjZgqQag=="
+        }
+    }
+}

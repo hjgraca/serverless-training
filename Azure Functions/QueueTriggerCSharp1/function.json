@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "myqueue",
+      "connection": "storagewebcast_STORAGE"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "outqueue",
+      "connection": "storagewebcast_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}
